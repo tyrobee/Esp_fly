@@ -51,11 +51,6 @@ Compact 2-layer PCB
 
 
 PCB Design
-   ESC
-![ESC1](https://raw.githubusercontent.com/tyrobee/Esp_fly/main/photos/esc1.png)
-
-
-![ESC2](https://raw.githubusercontent.com/tyrobee/Esp_fly/main/photos/esc2.png)
 
  Flight Controller
 
@@ -63,6 +58,12 @@ PCB Design
 
 
 ![FC2](https://raw.githubusercontent.com/tyrobee/Esp_fly/main/photos/fc2.png)
+
+   ESC
+![ESC1](https://raw.githubusercontent.com/tyrobee/Esp_fly/main/photos/esc1.png)
+
+
+![ESC2](https://raw.githubusercontent.com/tyrobee/Esp_fly/main/photos/esc2.png)
 
 
 Acknowledgements
