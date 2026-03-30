@@ -64,19 +64,19 @@ Compact 2-layer PCB
 
 ## BOM
 
-| # | Designator | Component            | Quantity | Value / Specs              | Package     | Notes                     |
-|---|------------|----------------------|----------|----------------------------|-------------|---------------------------|
-| 1 | U1         | ESP32 Module         | 1        | ESP32-WROOM / XIAO ESP32   | Module      | Main controller           |
-| 2 | U2         | OLED Display         | 1        | 0.96" I2C (SSD1306)        | Module      | Display output            |
-| 3 | U3         | IP5306               | 1        | Power Management IC        | SOP-8       | Battery + boost control   |
-| 4 | SW1–SW3    | Push Buttons         | 3        | Momentary tactile          | THT/SMD     | User input                |
-| 5 | B1         | Li-ion Battery       | 1        | 3.7V (18650 / LiPo)        | —           | Power source              |
-| 6 | R1–R3      | Resistors            | 3        | 10kΩ                       | 0603/0805   | Pull-down (optional)      |
-| 7 | C1–C?      | Capacitors           | X        | 0.1µF / 10µF               | 0603/0805   | Decoupling                |
-| 8 | J1         | Battery Connector    | 1        | JST-PH 2-pin               | THT         | Battery input             |
-| 9 | J2         | USB Connector        | 1        | Micro USB / Type-C         | SMD         | Charging input            |
-|10 | —          | Jumper Wires         | —        | —                          | —           | Prototyping               |
-
+| # | Component                     | Qty | Specifications / Part Suggestion        | Purpose                          |
+|---|------------------------------|-----|----------------------------------------|----------------------------------|
+| 1 | ESP32 Dev Board              | 1   | ESP32 (DevKit / XIAO ESP32)            | Main microcontroller             |
+| 2 | OLED Display (0.96" I2C)     | 1   | SSD1306 / SH1106, 128x64               | Display output                   |
+| 3 | Push Buttons                 | 3   | Momentary tactile switches             | User input                       |
+| 4 | IP5306 Power Module          | 1   | 5V Boost + Charging module             | Power management                 |
+| 5 | Li-ion Battery (1S)          | 1   | 3.7V (18650 / LiPo cell)               | Power source                     |
+| 6 | Battery Connector            | 1   | JST-PH 2-pin                           | Battery connection               |
+| 7 | Jumper Wires                 | 1   | Male-Female / Male-Male                | Connections                      |
+| 8 | Resistors (optional)         | 3   | 10kΩ                                   | Pull-down for buttons            |
+| 9 | Capacitors                   | 2–4 | 0.1µF + 10µF                           | Power stabilization              |
+|10 | PCB / Perfboard              | 1   | Custom PCB or prototyping board        | Mounting components              |
+|11 | USB Cable                    | 1   | Type-C / Micro USB                     | Charging + programming           |
 ## Acknowledgements
 
 - Open-source ESC community  
