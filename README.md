@@ -64,19 +64,19 @@ Compact 2-layer PCB
 
 ## BOM
 
-| # | Component                     | Qty | Specifications / Part Suggestion        | Purpose                          |
-|---|------------------------------|-----|----------------------------------------|----------------------------------|
-| 1 | ESP32 Dev Board              | 1   | ESP32 (DevKit / XIAO ESP32)            | Main microcontroller             |
-| 2 | OLED Display (0.96" I2C)     | 1   | SSD1306 / SH1106, 128x64               | Display output                   |
-| 3 | Push Buttons                 | 3   | Momentary tactile switches             | User input                       |
-| 4 | IP5306 Power Module          | 1   | 5V Boost + Charging module             | Power management                 |
-| 5 | Li-ion Battery (1S)          | 1   | 3.7V (18650 / LiPo cell)               | Power source                     |
-| 6 | Battery Connector            | 1   | JST-PH 2-pin                           | Battery connection               |
-| 7 | Jumper Wires                 | 1   | Male-Female / Male-Male                | Connections                      |
-| 8 | Resistors (optional)         | 3   | 10kΩ                                   | Pull-down for buttons            |
-| 9 | Capacitors                   | 2–4 | 0.1µF + 10µF                           | Power stabilization              |
-|10 | PCB / Perfboard              | 1   | Custom PCB or prototyping board        | Mounting components              |
-|11 | USB Cable                    | 1   | Type-C / Micro USB                     | Charging + programming           |
+| Name                                                     | Purpose                                      | Quantity |
+|----------------------------------------------------------|----------------------------------------------|----------|
+| shipping                                                 | shipping                                     | 1        |
+| AON7544-XBL-W 30V 100A 62.5W 5.5mΩ 10V,30A 2.5V@250uA    | mosfets                                      | 20       |
+| FlySky FS-iA10B Radio Receiver                           | receiver                                     | 1        |
+| esc pcb and pcba                                         | speed controller                             | 1        |
+| FLIGHT CONTROLLER PCB                                    | PRINTED CIRCUIT BOARD                        | 1        |
+| 1045 PROPELLERS                                          | PUSH AIR TOWARDS THE GROUND TO GENERATE LIFT | 1        |
+| MOTOR CCW                                                | THRUST                                       | 2        |
+| MOTORS CW                                                | THRUST                                       | 2        |
+| F450                                                     | FRAME                                        | 1        |
+| MPU6050                                                  | IMU                                          | 1        |
+| XIAO ESP32 S3                                            | MICROCONTROLLER                              | 1        |
 ## Acknowledgements
 
 - Open-source ESC community  
