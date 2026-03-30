@@ -1,4 +1,4 @@
-Esp_fly
+# Esp_fly
 Custom BLDC ESC and an ESP-based flight controller 
 
 Custom Drone Electronics (ESC + ESP Flight Controller)
@@ -8,7 +8,7 @@ A fully custom-built drone electronics stack including:
  30A BLDC Electronic Speed Controller (ESC)
 
 
-Overview
+## Overview
 
 This project focuses on building a complete custom drone control system  instead of using off-the-shelf components.
 
@@ -20,7 +20,7 @@ Component selection and optimization
 
 
 
-Learning & Inspiration
+## Learning & Inspiration
 
 Before building, I explored:
 BLDC motor control and ESC architecture  
@@ -35,15 +35,15 @@ Various open-source drone FC designs
 
 
 
-Features
-
+## Features
+-------
 Flight Controller
 ESP-based microcontroller  
 Multiple motor outputs (quad configuration)  
 Designed for sensor integration (MPU6050)  
 Custom PCB layout  
 
-ESC
+## ESC
 Designed for ~30A current  
 3-phase BLDC motor control  
 MOSFET-based power stage  
