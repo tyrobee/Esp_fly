@@ -9,7 +9,6 @@ A fully custom-built drone electronics stack including:
 
 
 ## Overview
-
 This project focuses on building a complete custom drone control system  instead of using off-the-shelf components.
 
 It includes:
@@ -21,14 +20,13 @@ Component selection and optimization
 
 
 ## Learning & Inspiration
-
 Before building, I explored:
 BLDC motor control and ESC architecture  
 Flight controller design basics  
 Sensor interfacing and control systems  
 Open-source projects  
 
-References:
+## References
 Electronoobs ESC  
 BlueESC (SimonK firmware)  
 Various open-source drone FC designs  
@@ -36,7 +34,6 @@ Various open-source drone FC designs
 
 
 ## Features
--------
 Flight Controller
 ESP-based microcontroller  
 Multiple motor outputs (quad configuration)  
@@ -50,23 +47,23 @@ MOSFET-based power stage
 Compact 2-layer PCB  
 
 
-PCB Design
+##PCB Design
 
- Flight Controller
+ ### Flight Controller
 
 ![FC1](https://raw.githubusercontent.com/tyrobee/Esp_fly/main/photos/fc1.png)
 
 
 ![FC2](https://raw.githubusercontent.com/tyrobee/Esp_fly/main/photos/fc2.png)
 
-   ESC
+### ESC
 ![ESC1](https://raw.githubusercontent.com/tyrobee/Esp_fly/main/photos/esc1.png)
 
 
 ![ESC2](https://raw.githubusercontent.com/tyrobee/Esp_fly/main/photos/esc2.png)
 
 
-Acknowledgements
+## Acknowledgements
 
 - Open-source ESC community  
 - Electronoobs  
