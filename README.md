@@ -62,6 +62,9 @@ Compact 2-layer PCB
 
 ![ESC2](https://raw.githubusercontent.com/tyrobee/Esp_fly/main/photos/esc2.png)
 
+## Frame
+![Wiring Diagram](Cad/Pic_1.png)
+
 ## BOM
 
 | Name                                                     | Purpose                                      | Quantity |
