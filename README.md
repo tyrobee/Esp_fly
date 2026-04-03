@@ -65,6 +65,9 @@ Compact 2-layer PCB
 ## Frame
 ![Wiring Diagram](Cad/Pic_1.png)
 
+## Schematics
+![Wiring Diagram 1](photos/c4.png)
+
 ## BOM
 
 | Name                                                     | Purpose                                      | Quantity |
