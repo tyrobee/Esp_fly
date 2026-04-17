@@ -47,7 +47,7 @@ MOSFET-based power stage
 Compact 2-layer PCB  
 
 
-##PCB Design
+## PCB Design
 
  ### Flight Controller
 
