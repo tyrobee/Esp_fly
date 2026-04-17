@@ -68,21 +68,21 @@ Compact 2-layer PCB
 ## Schematics
 ![Wiring Diagram 1](photos/c4.png)
 
-## BOM
+## 🧾 Bill of Materials (ESP Drone)
 
-| Name                                                     | Purpose                                      | Quantity |
-|----------------------------------------------------------|----------------------------------------------|----------|
-| shipping                                                 | shipping                                     | 1        |
-| AON7544-XBL-W 30V 100A 62.5W 5.5mΩ 10V,30A 2.5V@250uA    | mosfets                                      | 20       |
-| FlySky FS-iA10B Radio Receiver                           | receiver                                     | 1        |
-| esc pcb and pcba                                         | speed controller                             | 1        |
-| FLIGHT CONTROLLER PCB                                    | PRINTED CIRCUIT BOARD                        | 1        |
-| 1045 PROPELLERS                                          | PUSH AIR TOWARDS THE GROUND TO GENERATE LIFT | 1        |
-| MOTOR CCW                                                | THRUST                                       | 2        |
-| MOTORS CW                                                | THRUST                                       | 2        |
-| F450                                                     | FRAME                                        | 1        |
-| MPU6050                                                  | IMU                                          | 1        |
-| XIAO ESP32 S3                                            | MICROCONTROLLER                              | 1        |
+| Name                         | Purpose                                      | Qty | Cost (USD) | Link |
+|------------------------------|----------------------------------------------|-----|-----------|------|
+| Shipping                     | Shipping                                    | 1   | 10.00     | —    |
+| AKKFX Mini VTX 5.8G         | Video transmitter                            | 1   | 21.00     | [Link](#) |
+| FlySky FS-iA6B Receiver      | Receiver                                     | 1   | 17.00     | [Link](#) |
+| ESP PCB and Pads            | Speed controller                             | 1   | 3.81      | [Link](#) |
+| FLIGHT CONTROLLER PCB       | Circuit board                                | 1   | 2.00      | [Link](#) |
+| 1046 PROPELLERS             | Push air / lift                              | 2   | 1.15      | [Link](#) |
+| MOTOR CCW                   | Thrust                                       | 2   | 11.16     | [Link](#) |
+| MOTOR CW                    | Thrust                                       | 2   | 11.16     | [Link](#) |
+| FS-i6                       | Transmitter                                  | 1   | 45.00     | [Link](#) |
+| MPU6050                     | IMU                                          | 1   | 4.15      | [Link](#) |
+| XIAO ESP32 S3               | Microcontroller                              | 1   | 8.65      | [Link](#) |
 ## Acknowledgements
 
 - Open-source ESC community  
